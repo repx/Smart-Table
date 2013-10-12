@@ -454,7 +454,7 @@
                         }
 
                         column.sortPredicate = column.sortPredicate || column.map;
-                        column.reverse = column.reverse !== true;
+                        column.reverse = column.reverse === false;
                         lastColumnSort = column;
                     }
                 }
