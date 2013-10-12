@@ -12,7 +12,7 @@ module.exports = function (config) {
 
         frameworks: ['jasmine'],
 
-        autoWatch: false,
+        autoWatch: true,
 
         browsers: ['Chrome'],
 
